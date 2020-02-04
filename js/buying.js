@@ -15,5 +15,4 @@ for (var i = 0; i < buying.length; i++) {
             sp.innerText = "В корзине";
         }
     })
-
 }

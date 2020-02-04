@@ -1,0 +1,46 @@
+body {
+    background-color: #F6F3F3;
+
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: #343030;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    margin: 0 335px 0 352px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: none;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ArtWork</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap&subset=cyrillic"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header-container">
+    <div class="header container">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><img src="img/logo.png" alt="Логотип"></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">О галерее</a></li>
+            </ul>
+        </nav>
+        <form action="#" method="post" class="search-form">
+            <label class="search">
+                <input id="search" type="search" name="search" value="" class="search-field"
+                       placeholder="Поиск по названию картины">
+            </label>
+            <button type="submit" class="btn btn-search-done">Найти</button>
+        </form>
+    </div>
+</header>
+
+<main class="main container">
+    <h1>
+        Картины эпохи Возрождения
+    </h1>
+    <section class="catalog">
+        <article class="catalog-item item-number-1">
+            <img class="item-image" src="img/painting-1.png" alt="Рождение Венеры" width="278" height="158">
+            <img data-tab-id="1" src="img/sold.svg" class="sold-btn" alt="Пометить как купленное" height="24"
+                 width="24">
+            <h2 class="art-name">&#171;Рождение Венеры&#187;</h2>
+            <h2 class="painter">Сандро Боттичелли</h2>
+            <p class="buy-sold none">Продана на аукционе</p>
+            <div class="buy">
+                <div class="price">
+                    <p class="old-price">2 000 000 $</p>
+                    <p class="current-price">1 000 000 $</p>
+                </div>
+                <button class="btn btn-buy can-buy" type="button"><span>Купить</span></button>
+            </div>
+        </article>
+        <article class="catalog-item item-number-2">
+            <img class="item-image" src="img/painting-2.png" alt="Тайная Вечеря" width="278" height="158">
+            <img data-tab-id="2" src="img/sold.svg" class="sold-btn" alt="Пометить как купленное" height="24"
+                 width="24">
+            <h2 class="art-name">&#171;Тайная вечеря&#187;</h2>
+            <h2 class="painter">Леонардо да Винчи</h2>
+            <p class="buy-sold none">Продана на аукционе</p>
+            <div class="buy">
+                <div class="price">
+                    <p class="current-price">3 000 000 $</p>
+                </div>
+                <button class="btn btn-buy can-buy" type="button"><span>Купить</span></button>
+            </div>
+        </article>
+        <article class="catalog-item item-number-3">
+            <img class="item-image" src="img/painting-3.png" alt="Сотворение Адама" width="278" height="158">
+            <img data-tab-id="3" src="img/sold.svg" class="sold-btn" alt="Пометить как купленное" height="24"
+                 width="24">
+            <h2 class="art-name">&#171;Сотворение Адама&#187;</h2>
+            <h2 class="painter">Микеланджело</h2>
+            <p class="buy-sold none">Продана на аукционе</p>
+            <div class="buy">
+                <div class="price">
+                    <p class="old-price">6 000 000 $</p>
+                    <p class="current-price">5 000 000 $</p>
+                </div>
+                <button class="btn btn-buy can-buy" type="button"><span>Купить</span></button>
+            </div>
+        </article>
+        <article class="catalog-item item-number-4">
+            <img class="item-image" src="img/painting-4.png" alt="Урок анатомии" width="278" height="158">
+            <img data-tab-id="4" src="img/sold.svg" class="sold-btn" alt="Пометить как купленное" height="24"
+                 width="24">
+            <h2 class="art-name">&#171;Урок анатомии&#187;</h2>
+            <h2 class="painter">Рембрандт</h2>
+            <p class="buy-sold none">Продана на аукционе</p>
+            <div class="buy">
+                <div class="price">
+                    <p class="old-price">2 000 000 $</p>
+                    <p class="current-price">1 000 000 $</p>
+                </div>
+                <button class="btn btn-buy can-buy" type="button"><span>Купить</span></button>
+            </div>
+        </article>
+    </section>
+</main>
+
+<footer class="footer-container">
+    <div class="footer container">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><img src="img/logo.png" alt="Логотип"></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">О галерее</a></li>
+            </ul>
+        </nav>
+        <address>
+            <a href="tel:74955555555" class="phone">+7 (495) 555-55-55</a>
+            <p class="address">г. Москва, ул. Расплетина, 24</p>
+        </address>
+    </div>
+</footer>
+
+<script src="js/sold.js"></script>
+<script src="js/buying.js"></script>
+</body>
+</html>

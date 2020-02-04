@@ -1,0 +1,38 @@
+.btn {
+    background-color: #403432;
+    padding: 13px 36px 17px 36px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.btn-search-done {
+    margin-left: -3px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #776763;
+}
+
+.btn:disabled {
+    background-color: #C1B4B1;
+}
+
+.btn-buy {
+    margin-top: 4px;
+    padding: 16px 30px 17px 32px;
+}
+
+.bought {
+    padding: 16px 9px 15px 11px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background-color: #5B3A32;
+}
+
+.bought span:before {
+    content: url("../img/check.svg");
+    margin-right: 7px;
+}

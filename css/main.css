@@ -1,0 +1,94 @@
+.catalog {
+    margin-top: 42px;
+    margin-bottom: 40px;
+
+    min-height: 608px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.sold {
+    opacity: 0.5;
+}
+
+.catalog-item {
+    position: relative;
+    margin-bottom: 30px;
+    width: 280px;
+    height: 328px;
+    border: 1px solid #E1E1E1;
+}
+
+.catalog-item:not(:first-child) {
+    margin-left: 32px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 24px;
+    margin-top: 21px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #A0A0A0;
+    margin-top: 7px;
+}
+
+.current-price {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.art-name {
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.painter {
+    margin-top: 7px;
+}
+
+.art-name,
+.painter,
+.buy {
+    margin-left: 24px;
+}
+
+.buy-sold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 24px;
+    margin-top: 40px;
+}
+
+.sold-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.none {
+    display: none;
+}

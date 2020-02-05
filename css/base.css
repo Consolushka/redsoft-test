@@ -31,7 +31,8 @@ input {
 }
 
 .container {
-    margin: 0 335px 0 352px;
+    width: 1216px;
+    margin: 0 auto;
 }
 
 ul {

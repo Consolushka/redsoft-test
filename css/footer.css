@@ -20,6 +20,13 @@ address {
     font-style: normal;
 }
 
+footer {
+    color: #555555;
+}
+
+.logo-footer {
+
+}
 .phone {
     margin-right: 53px;
     margin-top: -1px;

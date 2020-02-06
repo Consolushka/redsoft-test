@@ -40,8 +40,10 @@
 .price {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
+
+    min-height: 48px;
 }
 
 .old-price {
